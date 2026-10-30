@@ -1,0 +1,1 @@
+{"schemaVersion":1,"mode":"operate","platform":"windows","direction":"用户指定苹果闹钟风格","colors":{"background":"#f5f5f7","foreground":"#1d1d1f","muted":"#64646b","accent":"#0071e3","surface":"#ffffff"},"typography":{"body":"Microsoft YaHei UI","numerals":"Segoe UI"},"spacing":{"window":34,"section":20},"seedReference":"seed:c2a62736d58a88f9","buildPath":"code"}

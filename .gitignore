@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+v1/build/
+v1/*.spec
+.impeccable/cache/
