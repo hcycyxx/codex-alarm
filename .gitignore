@@ -2,4 +2,6 @@ __pycache__/
 *.pyc
 v1/build/
 v1/*.spec
+v1_1/build/
+v1_1/*.spec
 .impeccable/cache/
