@@ -6,4 +6,6 @@ v1_1/build/
 v1_1/*.spec
 v1_2/build/
 v1_2/*.spec
+v1_3/build/
+v1_3/*.spec
 .impeccable/cache/
