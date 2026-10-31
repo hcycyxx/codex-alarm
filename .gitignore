@@ -10,4 +10,6 @@ v1_3/build/
 v1_3/*.spec
 v1_4/build/
 v1_4/*.spec
+v1_5/build/
+v1_5/*.spec
 .impeccable/cache/
