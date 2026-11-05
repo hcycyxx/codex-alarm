@@ -1,0 +1,10 @@
+VSVersionInfo(
+ ffi=FixedFileInfo(filevers=(1,7,0,0), prodvers=(1,7,0,0), mask=0x3f, flags=0, OS=0x40004, fileType=1, subtype=0, date=(0,0)),
+ kids=[StringFileInfo([StringTable('080404b0', [
+ StringStruct('CompanyName', 'Jack'),
+ StringStruct('FileDescription', 'Codex 定时唤醒'),
+ StringStruct('FileVersion', '1.7.0'),
+ StringStruct('ProductName', 'Codex 定时唤醒 V1.7'),
+ StringStruct('ProductVersion', '1.7.0'),
+ StringStruct('OriginalFilename', 'Codex定时唤醒_v1_7.exe')
+ ])]), VarFileInfo([VarStruct('Translation', [2052,1200])])])
