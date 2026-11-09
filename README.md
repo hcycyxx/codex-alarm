@@ -8,9 +8,11 @@ Windows 本地桌面程序。只负责定时发送消息，不能直接设置或
 
 ## 下载与版本
 
-当前程序为 **V1.8**，本仓库暂未发布独立 Release。
+当前程序为 **V1.8**，下载对应的 **v1.8.0** 版本：
 
-- [仓库中的 V1.8 EXE](v1_8/dist/Codex定时唤醒_v1_8.exe)：打开文件页后下载，运行无需 Python。
+- **[下载可直接运行的 EXE](https://github.com/hcycyxx/codex-alarm/releases/download/v1.8.0/CodexAlarm_v1_8.exe)**，无需 Python。
+- **[下载程序、源码与中文说明完整包](https://github.com/hcycyxx/codex-alarm/releases/download/v1.8.0/codex-alarm-v1.8-source-docs-20261109_v2.zip)**
+- [查看 Release](https://github.com/hcycyxx/codex-alarm/releases/tag/v1.8.0) · [仓库原 EXE](v1_8/dist/Codex定时唤醒_v1_8.exe)
 - [使用说明](v1_8/使用说明_v1_8.md) · [更新日志](CHANGELOG.md)
 
 ## 效果预览
@@ -30,7 +32,7 @@ Windows 本地桌面程序。只负责定时发送消息，不能直接设置或
 ## 使用
 
 1. 先安装并使用 ChatGPT 账号登录 Codex 桌面软件，确认 GPT-6.1 Sol 可用。
-2. 下载并运行 [V1.8 EXE](v1_8/dist/Codex定时唤醒_v1_8.exe)；运行 EXE 不需要安装 Python。
+2. 下载并运行 [V1.8 EXE](https://github.com/hcycyxx/codex-alarm/releases/download/v1.8.0/CodexAlarm_v1_8.exe)；运行 EXE 不需要安装 Python。
 3. 核对时间与消息，点击“检查连接”。
 4. 可用“立即试发”核对弹窗后发送，再点击“开启定时”。每次启动默认暂停。
 5. 保持电脑开机联网；可点击右上角“隐藏到托盘”。
