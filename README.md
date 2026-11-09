@@ -85,4 +85,15 @@ V1.8 已做本地托盘图标、隐藏后计时器、恢复、退出清理与界
 - **发送结果不明**：先核对聊天和记录，避免直接重发。
 - **托盘找不到**：检查 Windows 托盘折叠区域，详见 [V1.8 使用说明](v1_8/使用说明_v1_8.md)。
 
+<!-- jack-white-rice-support:start -->
+## 请大肥鱼吃大白饭 🍚
+
+如果这个项目帮到了你，欢迎请大肥鱼吃一碗大白饭。自愿投喂，量力而行，感谢支持！
+
+<p>
+  <a href="assets/support/alipay-jack-v1.jpg"><img src="assets/support/alipay-jack-v1.jpg" alt="Jack 的支付宝收款码：请大肥鱼吃大白饭" height="320"></a>
+  <a href="assets/support/rice-meme-v1.png"><img src="assets/support/rice-meme-v1.png" alt="大肥鱼端碗表情包：饭呢？" height="320"></a>
+</p>
+<!-- jack-white-rice-support:end -->
+
 本仓库尚未声明独立的开源许可证，使用和再分发权限请先向作者确认。
