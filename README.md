@@ -1,8 +1,23 @@
-Codex Plus的5小时限额太麻烦了，为了让他在10点重置一次，上午能用两份5小时额度，就得上午5点给他发一次消息。所以写了这个定时插件。
+<div align="center">
+  <h1>Codex 定时唤醒</h1>
+  <p><strong>每日多时段、自定义消息，隐藏到托盘后继续计时。</strong></p>
+  <p><img alt="Windows" src="https://img.shields.io/badge/platform-Windows-0078D6"> <img alt="源码 V1.8" src="https://img.shields.io/badge/source-V1.8-B56C43"> <a href="https://github.com/hcycyxx/codex-alarm/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/hcycyxx/codex-alarm?color=3B77A1"></a></p>
+</div>
 
-# Codex 定时唤醒
+Windows 本地桌面程序。只负责定时发送消息，不能直接设置或保证 Codex 的额度重置时间。
 
-Windows 桌面工具：按每天设定的时间，将自定义消息发送给本机已登录的 Codex。当前版本 **V1.8**。
+## 下载与版本
+
+当前程序为 **V1.8**，本仓库暂未发布独立 Release。
+
+- [仓库中的 V1.8 EXE](v1_8/dist/Codex定时唤醒_v1_8.exe)：打开文件页后下载，运行无需 Python。
+- [使用说明](v1_8/使用说明_v1_8.md) · [更新日志](CHANGELOG.md)
+
+## 效果预览
+
+![V1.8 定时计划界面（已有截图）](v1_8/preview_tray_button_20261106_111326.png)
+
+仓库已有的 V1.8 界面截图；截图不代表真实发送已经验收。
 
 ## 功能
 
@@ -55,4 +70,17 @@ powershell -ExecutionPolicy Bypass -File v1_8/build_v1_8.ps1
 
 V1.8 已做本地托盘图标、隐藏后计时器、恢复、退出清理与界面检查。检查中的发送被替换为本地模拟，没有调用真实模型。实际消息发送与额度变化需要用户自行验收。
 
-![V1.8 界面](v1_8/preview_tray_button_20261106_111326.png)
+
+## 更新、设置与卸载
+
+更新前退出旧版，新版本保存到新目录，保留旧版便于回退。设置与记录位于 `%LOCALAPPDATA%\CodexAlarm\v1_8`。
+
+卸载前暂停计划并完全退出，再删除程序；个人设置可先备份后自行移除。本工具不增加开机启动项。
+
+## 常见问题
+
+- **到点未发送**：检查程序是否仍运行、定时是否开启、电脑是否处于睡眠，以及 Codex 登录与本机连接状态。
+- **发送结果不明**：先核对聊天和记录，避免直接重发。
+- **托盘找不到**：检查 Windows 托盘折叠区域，详见 [V1.8 使用说明](v1_8/使用说明_v1_8.md)。
+
+本仓库尚未声明独立的开源许可证，使用和再分发权限请先向作者确认。
